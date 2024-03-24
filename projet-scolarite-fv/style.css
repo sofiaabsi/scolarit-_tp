@@ -1,0 +1,92 @@
+
+  *, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+   background-image:url(ecoleimg.jpg); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .boxLogin {
+    width: 350px;
+    height: 500px;
+    background-color: #00000052;
+    border-radius: 6px;
+    box-shadow: 0 0 15px 5px rgba(18, 20, 25, 0.678);
+  }
+  
+  .containerLogo {
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cercle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(image3.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cercle img {
+    width: 50%;
+  }
+  
+  .containerInputs {
+    height: 60%;
+  }
+  
+  form input {
+    display: block;
+    margin: 15px auto;
+    background-color: #ebebe9; 
+    width: 85%;
+    border: 2px solid #f7f7f7; 
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  form button {
+    display: block;
+    margin: 20px auto;
+    background-color: #f9d9ba; 
+    width: 85%;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    color: rgb(3, 3, 3);
+  }
+  
+.txtFins a {
+    text-align: center;
+    color: #f3f3f3;
+    text-decoration: none;
+  }
+
+  .red {
+    color: #000000; 
+  }
+  
+  .wrong {
+    border: 2px solid #000000!important; 
+  }
+  
+  label {
+    color: #502020; 
+    margin-left: 20px;
+  }
+  
